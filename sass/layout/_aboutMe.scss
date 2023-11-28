@@ -1,0 +1,140 @@
+.about-me {
+  display: flex;
+  margin-top: 90px;
+  column-gap: 65px;
+}
+
+.about-me-diva {
+  width: 521px;
+  height: 413px;
+}
+
+.about-me-wrap-before {
+  display: flex;
+}
+
+.about-me-wrap-before::before {
+  content: "";
+  margin-right: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 257px;
+  flex-shrink: 0;
+  background-image: url(../../img/about-me-man.png);
+  background-color: #111214;
+  background-repeat: no-repeat;
+}
+
+.about-me-wrap-after {
+  display: flex;
+  position: relative;
+}
+
+.about-me-wrap-after::after {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 257px;
+  flex-shrink: 0;
+  background-image: url(../../img/about-me-keyboard.jpg);
+  background-color: #111214;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.about-me-wrapper {
+  margin-top: 33px;
+}
+
+.about-me-wrap {
+  width: 151px;
+  height: 93px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-wrap2 {
+  margin-right: 61px;
+  margin-left: 71px;
+}
+
+.about-me-subtitle {
+  color: #fe390c;
+  font-family: Anton;
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+}
+
+.about-me-subtitle-left {
+  margin-left: 5px;
+}
+
+.about-me-subtitle-right {
+  margin-right: 5px;
+}
+
+.about-me-p {
+  color: #111214;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.56px;
+}
+
+.about-me-me {
+  display: flex;
+  width: 521px;
+  height: 285px;
+}
+
+.about-me-me-wrap {
+  justify-content: center;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-me::before {
+  content: "01";
+  align-items: start;
+  display: flex;
+  color: #fe390c;
+  font-family: Anton;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.about-me-me-h2 {
+  margin-bottom: 24px;
+  color: #111214;
+  font-family: Anton;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.about-me-me-subtitle {
+  color: #a9a9aa;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2.2;
+  letter-spacing: -0.28px;
+}
+
+.about-me-me-subtitle-nig {
+  margin-top: 5px;
+}
