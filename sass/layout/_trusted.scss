@@ -1,0 +1,25 @@
+.trusted {
+  padding-top: 88px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  background: #f7f7f7;
+  height: 310px;
+  position: relative;
+  margin-top: 87px;
+}
+
+.trusted-wrap {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.trusted-list {
+  column-gap: 90px;
+  display: flex;
+}
+
+.trusted-item > svg {
+  fill: rgba(167, 170, 180, 1);
+}

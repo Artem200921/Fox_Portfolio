@@ -1,0 +1,90 @@
+.my-service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  width: 1103px;
+  height: 447px;
+  flex-shrink: 0;
+}
+
+.my-service-wrap {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.my-service-subtitle-title-wrap {
+  margin-bottom: 58px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.my-service-subtitle {
+  color: var(--1, #fe390c);
+  font-family: Anton;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.my-service-title {
+  color: #111214;
+  font-family: Anton;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.my-service-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+}
+
+.my-service-item {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 261px;
+  background: #f7f7f7;
+  fill: rgba(254, 57, 12, 1);
+  padding: 40px 31px 31px 20px;
+}
+
+.my-service-item:hover {
+  background: var(--1, #fe390c);
+}
+
+.my-service-item:hover svg {
+  fill: #fff;
+}
+
+.my-service-item:hover .my-service-h4 {
+  color: #fff;
+}
+
+.my-service-item:hover .my-service-p {
+  color: #FFD7CE;
+}
+
+.my-service-h4 {
+  margin-top: 24px;
+  color: #111214;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.8;
+  letter-spacing: -0.64px;
+}
+
+.my-service-p {
+  color: #a9a9aa;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: -0.28px;
+}
