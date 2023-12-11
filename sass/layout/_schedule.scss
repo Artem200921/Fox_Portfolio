@@ -1,0 +1,139 @@
+.last-theme {
+  margin-top: 120px;
+  width: 1140px;
+  margin-bottom: 120px;
+}
+
+.last-theme-img {
+  display: flex;
+}
+
+.last-theme-slide-subtitle-link {
+  margin-top: 10px;
+  color: #a7aab4;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.8;
+  letter-spacing: -0.64px;
+}
+
+.carousel-container {
+  width: 1140px;
+  justify-content: center;
+  display: flex;
+}
+.carousel-wrapper {
+  display: flex;
+}
+.carousel-slide {
+  display: none;
+}
+.actives {
+  animation-name: box;
+  animation-duration: 2s;
+  width: 1140px;
+  display: flex;
+}
+
+.last-theme-slide-subtitle-wrap {
+  fill: #fe390c;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.last-theme-slide-wrap {
+  height: 117px;
+  align-items: center;
+  display: flex;
+}
+
+.last-theme-slide-subtitle-p {
+  width: 430px;
+  margin-top: 23px;
+  color: #111214;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2.2;
+  letter-spacing: -0.28px;
+}
+
+.last-theme-slide-subtitle-h4 {
+  margin-top: 31px;
+  margin-bottom: 5px;
+  color: #fe390c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.8;
+  letter-spacing: -0.64px;
+}
+
+.last-theme-slide-wrap-wrap {
+  margin-left: 121px;
+  display: flex;
+  flex-direction: column;
+}
+
+.last-theme-slide-subtitle-p-p {
+  color: #a9a9aa;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.56px;
+}
+
+.last-theme-slide-p {
+  color: #fe390c;
+  font-family: Anton;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.last-theme-slide-h2 {
+  margin-left: 24px;
+  color: #111214;
+  font-family: Anton;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.last-theme-slide-score {
+  margin-left: 296px;
+  margin-top: 48px;
+  color: #fe390c;
+  font-family: Anton;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  align-items: start;
+  position: absolute;
+  top: 48px;
+  right: 0;
+}
+
+.last-theme-slide-score-span {
+  color: #c4c4c4;
+}
+
+.last-theme-buttons-wrap {
+  width: 200px;
+  column-gap: 24px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  position: relative;
+}
+
+.arrow-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  background: #fe390c;
+  fill: #ffffff;
+}

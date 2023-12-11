@@ -9,48 +9,26 @@
   height: 413px;
 }
 
-.about-me-wrap-before {
-  display: flex;
-}
-
-.about-me-wrap-before::before {
-  content: "";
-  margin-right: 61px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 230px;
-  height: 257px;
-  flex-shrink: 0;
-  background-image: url(../../img/about-me-man.png);
-  background-color: #111214;
-  background-repeat: no-repeat;
-}
-
-.about-me-wrap-after {
-  display: flex;
-  position: relative;
-}
-
-.about-me-wrap-after::after {
-  content: "";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 230px;
-  height: 257px;
-  flex-shrink: 0;
-  background-image: url(../../img/about-me-keyboard.jpg);
-  background-color: #111214;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
 .about-me-wrapper {
   margin-top: 33px;
+}
+
+.about-me-link {
+  color: #fe390c;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+}
+
+.about-me-span {
+  color: #fe390c;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
 }
 
 .about-me-wrap {
@@ -94,8 +72,6 @@
 
 .about-me-me {
   display: flex;
-  width: 521px;
-  height: 285px;
 }
 
 .about-me-me-wrap {
