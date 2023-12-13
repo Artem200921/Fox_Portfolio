@@ -519,7 +519,7 @@ body {
   height: 261px;
   background: #f7f7f7;
   fill: rgb(254, 57, 12);
-  padding: 40px 31px 31px 20px;
+  padding: 5px 31px 31px 20px;
 }
 
 .my-service-item:hover {
@@ -545,6 +545,7 @@ body {
   font-weight: 700;
   line-height: 1.8;
   letter-spacing: -0.64px;
+  margin-bottom: 20px;
 }
 
 .my-service-p {
